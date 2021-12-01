@@ -62,15 +62,15 @@ levels(country)
 as.integer(country)
 
 ##############11##############
-post <- list(user_id='하늘',
-             post_id='p11010',
+post <- list(user_id=mr_steve,
+             post_id=p11010,
              view=37,
              image=FALSE,
              like='creeper', 'alex', 'skeleton', 'enderman')
 post
 
 ##############12##############
-account <- list(name='하늘',
+account <- list(name=하늘,
              number=123-468-120566,
              balance=4128750,
              history=c(-50000, +20000, -32500, -79000, +42000))
