@@ -73,6 +73,9 @@ best
 중간고사_점수 <- (data.frame(국어, 역사, 수학, 과학, 영어))
 중간평균 <- rowMeans(중간고사_점수)
 중간고사_평균 <- (data.frame(이름, 중간평균))
+
+mid <- (data.frame(이름, 국어, 역사, 수학, 과학, 영어))
+
 국어 <- c(94, 92, 100)
 역사 <- c(95, 95, 100)
 수학 <- c(90, 87, 85)
@@ -82,10 +85,16 @@ best
 기말고사_점수 <- (data.frame(국어, 역사, 수학, 과학, 영어))
 기말평균 <- rowMeans(기말고사_점수)
 기말고사_평균 <- (data.frame(이름, 기말평균))
+
+final <- (data.frame(이름, 국어, 역사, 수학, 과학, 영어))
+
 a <- (data.frame(중간평균, 기말평균))
 전체평균<-rowMeans(a)
 전체평균 <- (data.frame(이름, 전체평균))
 전체평균
+
+avg <- (mid + final) /2
+avg
 
 #11
 class(cars)
